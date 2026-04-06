@@ -126,5 +126,136 @@ nav ul li a:hover{
     color: #9d1bf6;
 }
 .preference-card h3{
-    margin-top: 16px;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.preference-card p{
+    font-size: 14px;
+    color: #464646;
+    font-weight: 400;
+}
+.products{
+    padding: 64px 0;
+    display: flex;
+    flex-direction: column;
+}
+.products h2{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.products p{
+    font-size: 16px;
+    color: #464646;
+    font-weight: 400;
+
+}
+.products-cards{
+    display: flex;
+    column-gap: 20px;
+}
+.product-item{
+    border: 1px solid #dedede;
+    border-radius: 20px;
+}
+.product-item img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.product-item-wrapper{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    padding: 16px;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+.type{
+    font-size: 12px;
+    color: #9d1bf6;
+    text-transform: uppercase;
+}
+.product-item-wrapper h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+.product-item-wrapper p{
+    font-size: 14px;
+    color: #464646;
+    font-weight: 400;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost{
+    font-size: 20px;
+    color: #9d1bf6;
+}
+.avaible{
+    font-size: 12px;
+    color: green;
+}
+.product-item-wrapper button, .product-btn{
+    border: none;
+    background: #9d1bf6;
+    color: white;
+    font-size: 14px;
+    padding: 8px 0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.product-item:hover{
+    box-shadow: 0 5px 5px #464646;
+}
+.product-btn{
+    padding: 10px 25px;
+}
+.product-btn:hover{
+    background: #5d009f;
+}
+.send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0;
+    background: #9d1bf6;
+    color: white;
+    row-gap: 30px;
+}
+.send h2{
+    font-size: 36px;
+    font-weight: 500;
+}
+.send p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.send button{
+    border: none;
+    background: white;
+    color: #9d1bf6;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #101727;
+    color: white;
+}
+.footer-top{
+    display: flex;
+    justify-content: center;
+    column-gap: 250px;
+}
+.column{
+    max-width: 350px;
 }

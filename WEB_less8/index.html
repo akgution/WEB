@@ -40,7 +40,7 @@
 <main>
     <section class = "preference">
         <article class = "preference-card">
-            <span class = "preference-image"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gift h-8 w-8 text-purple-600"><rect x="3" y="8" width="18" height="4" rx="1"></rect><path d="M12 8v13"></path><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"></path><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"></path></svg></>
+            <span class = "preference-image"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gift h-8 w-8 text-purple-600"><rect x="3" y="8" width="18" height="4" rx="1"></rect><path d="M12 8v13"></path><path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"></path><path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"></path></svg></span>
             <h3>Унікальні товари</h3>
             <p>Ексклюзивні сувеніри ручної роботи</p>
         </article>
@@ -60,71 +60,79 @@
             <p>Завжди готові допомогти вам</p>
         </article>
     </section>
-    <section class = "products">
+    <section class = "products wrapper">
         <h2>Популярні товари</h2>
         <p>Найкращі пропозиції від наших майстрів</p>
         <article class = "products-cards">
             <div class = "product-item">
                 <img src="images/item1.jfif">
-                <span class = "type">Посуд</span>
-                <h3>Чашка з унікальним принтом</h3>
-                <p>Керамічна чашка з авторським дизайном</p>
-                <div class = "price">
-                    <span class = "cost">299 ₴</span>
-                    <span class = "avaible">В наявності</span>
+                <div class="product-item-wrapper">
+                    <span class = "type">Посуд</span>
+                    <h3>Чашка з унікальним принтом</h3>
+                    <p>Керамічна чашка з авторським дизайном</p>
+                    <div class = "price">
+                        <span class = "cost">299 ₴</span>
+                        <span class = "avaible">В наявності</span>
+                    </div>
+                    <button>
+                        <span>🛒</span>
+                        <span>Додати в кошик</span>
+                    </button>
                 </div>
-                <button>
-                    <span>🛒</span>
-                    <span>Додати в кошик</span>
-                </button>
             </div>
         </article>
         <article class = "products-cards">
             <div class = "product-item">
                 <img src="images/item.jfif">
-                <span class = "type">Аксесуари</span>
-                <h3>Брелок ручної роботи</h3>
-                <p>Стильний брелок з натуральних матеріалів</p>
-                <div class = "price">
-                    <span class = "cost">149 ₴</span>
-                    <span class = "avaible">В наявності</span>
+                <div class = "product-item-wrapper">
+                    <span class = "type">Аксесуари</span>
+                    <h3>Брелок ручної роботи</h3>
+                    <p>Стильний брелок з натуральних матеріалів</p>
+                    <div class = "price">
+                        <span class = "cost">149 ₴</span>
+                        <span class = "avaible">В наявності</span>
+                    </div>
+                    <button>
+                        <span>🛒</span>
+                        <span>Додати в кошик</span>
+                    </button>
                 </div>
-                <button>
-                    <span>🛒</span>
-                    <span>Додати в кошик</span>
-                </button>
             </div>
         </article>
         <article class = "products-cards">
             <div class = "product-item">
                 <img src="images/item3.jfif">
-                <span class = "type">Декор</span>
-                <h3>Магніт на холодильник</h3>
-                <p>Декоративний магніт з міськими пейзажами</p>
-                <div class = "price">
-                    <span class = "cost">89 ₴</span>
-                    <span class = "avaible">В наявності</span>
+                <div class = "product-item-wrapper">
+                    <span class = "type">Декор</span>
+                    <h3>Магніт на холодильник</h3>
+                    <p>Декоративний магніт з міськими пейзажами</p>
+                    <div class = "price">
+                        <span class = "cost">89 ₴</span>
+                        <span class = "avaible">В наявності</span>
+                    </div>
+                    <button>
+                        <span>🛒</span>
+                        <span>Додати в кошик</span>
+                    </button>
                 </div>
-                <button>
-                    <span>🛒</span>
-                    <span>Додати в кошик</span>
-                </button>
             </div>
         </article>
         <article class = "products-cards">
             <div class = "product-item">
                 <img src="images/item4.jfif">
-                <span class = "type">Текстиль</span>
-                <h3>Декоративна подушка</h3>
-                <p>М'яка подушка з оригінальною вишивкою</p>
-                <div class = "price">
-                    <span class = "cost">449 ₴</span>
-                    <span class = "avaible">В наявності</span>
+                <div class="product-item-wrapper">
+                    <span class = "type">Текстиль</span>
+                    <h3>Декоративна подушка</h3>
+                    <p>М'яка подушка з оригінальною вишивкою</p>
+                    <div class = "price">
+                        <span class = "cost">449 ₴</span>
+                        <span class = "avaible">В наявності</span>
+                    </div>
+                    <button>
+                        <span>🛒</span>
+                        <span>Додати в кошик</span>
+                    </button>
                 </div>
-                <button>
-                    <span>🛒</span>
-                    <span>Додати в кошик</span>
-                </button>
             </div>
         </article>
         <button class = "product-btn">Переглянути всі товари</button>
